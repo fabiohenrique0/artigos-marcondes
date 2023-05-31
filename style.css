@@ -49,9 +49,9 @@ nav > a:hover {
 section#text {
     font-size: 3.3vw;
     font-family: var(--fonte2);
-    background-color: rgba(0, 0, 0, 0.479);
     color: white;
     text-shadow: 1px 1px 2px rgba(31, 31, 31, 0.637);
+    background-color: rgba(0, 0, 0, 0.479);
     padding: 20px;
     width: 55vw;
     max-width: 60vw;
@@ -98,10 +98,6 @@ section.img {
     box-shadow: inset 6px 10px 13px 0px rgba(0, 0, 0, 0.377);
 }
 
-section#img1 {
-    background-image: url(fundos/4Vv43ekp8QVwL95So7Z8sb.jpg);
-}
-
 footer {
     background-color: rgb(22, 22, 22);
     color: white;
@@ -113,4 +109,8 @@ footer {
 footer a {
     color: white;
     font-weight: bolder;
+}
+
+section#img1 {
+    background-image: url(fundos/4Vv43ekp8QVwL95So7Z8sb.jpg);
 }
