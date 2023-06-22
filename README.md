@@ -1,3 +1,2 @@
 # artigos-marcondes
- A simple website made by using HTML and CSS that shows some articles made by students.
- (Mainly made for mobile screens) 
+ Reunião dos artigos feitos pelos alunos do 3°C
