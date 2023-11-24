@@ -3,6 +3,10 @@
 :root {
     --fonte1: 'Merriweather', serif;
     --fonte2: 'Rubik', sans-serif;
+    --cor1: #006D77;
+    --cor2: #272635;
+    --cor3: #F1A208;
+    --cor4: #E8EDDF;
 }
 
 * {
@@ -10,7 +14,7 @@
 }
 
 header {
-    background-image: linear-gradient(to bottom, rgb(46, 46, 46), rgb(24, 24, 24));
+    background-color: var(--cor1);
     text-align: center;
     color: white;
     padding: 20px;
@@ -46,6 +50,67 @@ nav > a:hover {
     color: black;
 }
 
+section#cape {
+    background-color: var(--cor2);
+    position: relative;
+    padding-top: 16vh;
+    padding-bottom: 16vh;
+    padding-left: 30px;
+    padding-right: 30px;
+    max-height: 100px;
+}
+
+section#text0 {
+    width: 50%;
+    background-color: rgba(255, 0, 0, 0);
+    
+    font-family: var(--fonte2);
+    text-align: justify;
+    animation-name: entrance;
+    animation-duration: 3s;
+}
+
+img#man {
+    width: 70%;
+    max-width: 400px;
+    float: right;
+    transform: translate(20px, -60%);
+    animation-name: entrance;
+    animation-duration: 3s;
+}
+
+img#idea {
+    width:20%;
+    max-width: 100px;
+    position: absolute;
+    right: 0px;
+    top: 50px;
+    transform: translate(-30px, -40px);
+    animation-name: float-idea, entrance;
+    animation-duration: 3.5s, 3s;
+    animation-iteration-count: infinite, 1;
+}
+
+@keyframes float-idea {
+    0% {transform: translate(-30px, -40px);}
+    50% {transform: translate(-30px, 20px);}
+    100% {transform: translate(-30px, -40px);}
+}
+
+@keyframes entrance {
+    from {transform: translateY(50px); opacity: 0;}
+    to {opacity: 1;}
+}
+
+section#text0 > h2 {
+    margin-bottom: 10px;
+    color: var(--cor3);
+}
+
+section#text0 > p {
+    color: var(--cor4);
+}
+
 article#text {
     font-size: 3.3vw;
     font-family: var(--fonte2);
@@ -58,8 +123,6 @@ article#text {
 }
 
 article > h2 {
-    margin-top: 20px;
-    margin-right: 20px;
     margin-bottom: 20px;
 }
 
@@ -112,5 +175,5 @@ footer a {
 }
 
 section#img1 {
-    background-image: url(fundos/4Vv43ekp8QVwL95So7Z8sb.jpg);
+    background-image: url(fundos/buraco-negro.jpg);
 }
