@@ -43,11 +43,10 @@ header > p {
 }
 
 #indice li {
-    margin: 10px;
+    padding: 5px;
 }
 
 #indice a {
-    white-space: nowrap;
     color: white;
 }
 
@@ -196,7 +195,7 @@ section#img1 {
 }
 #img7 {
     background-image: url(fundos/violencia.jpg);
-    background-position: left;
+    background-position: 20%;
 }
 #img8 {
     background-image: url(fundos/depressao.jpg);
@@ -216,9 +215,11 @@ section#img1 {
 }
 #img13 {
     background-image: url(fundos/consumismo.jpg);
+    background-position: 70%;
 }
 #img14 {
     background-image: url(fundos/futsal.jpg);
+    background-position: 40%;
 }
 #img15 {
     background-image: url(fundos/hot-dog.jpg);
