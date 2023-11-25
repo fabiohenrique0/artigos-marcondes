@@ -52,7 +52,10 @@ header > p {
 
 section#cape {
     background-color: var(--cor2);
-    padding: 90px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 section#text0 { 
@@ -87,7 +90,7 @@ article#text {
 }
 
 article > h2 {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 article > p {
