@@ -52,12 +52,7 @@ header > p {
 
 section#cape {
     background-color: var(--cor2);
-    position: relative;
-    padding-top: 16vh;
-    padding-bottom: 16vh;
-    padding-left: 30px;
-    padding-right: 30px;
-    max-height: 100px;
+    padding: 90px;
 }
 
 section#text0 { 
