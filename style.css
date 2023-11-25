@@ -57,7 +57,6 @@ section#cape {
 
 section#text0 { 
     font-family: var(--fonte2);
-    text-align: justify;
     animation-name: entrance;
     animation-duration: 3s;
 }
@@ -180,7 +179,7 @@ section#img1 {
 }
 #img13 {
     background-image: url(fundos/consumismo.jpg);
-    background-position: 70%;
+    background-position: 90%;
 }
 #img14 {
     background-image: url(fundos/futsal.jpg);
