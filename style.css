@@ -122,7 +122,6 @@ section.img {
     padding-right: 30px;
 
     background-size: cover;
-    background-attachment: fixed;
     background-position: center center;
 
     box-shadow: inset 6px 10px 13px 0px rgba(0, 0, 0, 0.377);
@@ -143,7 +142,7 @@ footer a {
 
 section#img1 {
     background-image: url(fundos/buraco-negro.jpg);
-    background-position: right;
+    background-position: center right;
 }
 #img2 {
     background-image: url(fundos/tecnologia.jpg);
@@ -162,11 +161,11 @@ section#img1 {
 }
 #img7 {
     background-image: url(fundos/violencia.jpg);
-    background-position: 20%;
+    background-position: center left;
 }
 #img8 {
     background-image: url(fundos/depressao.jpg);
-    background-position: right;
+    background-position: center right;
 }
 #img9 {
     background-image: url(fundos/trafico.jpg);
@@ -182,11 +181,9 @@ section#img1 {
 }
 #img13 {
     background-image: url(fundos/consumismo.jpg);
-    background-position: 90%;
 }
 #img14 {
     background-image: url(fundos/futsal.jpg);
-    background-position: 40%;
 }
 #img15 {
     background-image: url(fundos/hot-dog.jpg);
